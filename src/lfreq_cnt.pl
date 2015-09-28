@@ -1,7 +1,12 @@
 use strict;
 use POSIX;
 
-open(MYFILE, 'test1.txt');
+=begin description
+Code sample implements letter frequency counter algorithm
+for sample text in ./lfreq_cnt_sample.txt
+=cut
+
+open(MYFILE, 'lfreq_cnt_sample.txt');
 
 my %counts;
 while(<MYFILE>)

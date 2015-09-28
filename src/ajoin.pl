@@ -1,5 +1,10 @@
 use strict;
 
+=begin description
+code sample to join two arrays
+and return result numerically sorted
+=cut
+
 my @a = (1,3,4,4,56,23,40);
 my @b = (1,2,3,4,6,10,56,41,100);
 

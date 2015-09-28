@@ -1,5 +1,10 @@
 use strict;
 
+=begin description
+Code sample that searches for a phrase $ARGV[1] in a directory $ARGV[0]
+And prints list of matched files
+=cut
+
 my $directory = $ARGV[0] || ".";
 my $searchfor = $ARGV[1];
 die("No search string") if !$searchfor;

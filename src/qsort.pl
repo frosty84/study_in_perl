@@ -1,5 +1,11 @@
 use strict;
 
+=begin description
+Code sample implements quick sort algorithm
+for randomly generated 0..10 array
+ans counts number of iterations
+=cut
+
 my @a;
 for(0..10){
     push(@a, int(rand(100)));

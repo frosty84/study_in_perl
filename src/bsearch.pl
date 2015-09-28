@@ -1,7 +1,8 @@
 use strict;
 
-#my @a = split("-", "0-1-2-3-3-4-4-5-6-7-9");
-
+=begin description
+Code sample that implements binary search algorithm for a value in randomly generated array
+=cut
 sub binsearch
 {
     my ($a, $searchfor, $left, $right) = @_;

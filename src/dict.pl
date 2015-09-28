@@ -1,6 +1,11 @@
 use strict;
 
-open(MYFILE, 'text.txt') or die("No File to open");
+=begin description
+Code sample that gets sampe text from ./dict_text.txt
+and prints dictionary for it.
+=cut
+
+open(MYFILE, 'dict_text.txt') or die("No File to open");
 my %dict;
 while(<MYFILE>){
     #print "\n".$_;

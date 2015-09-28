@@ -1,4 +1,10 @@
 use strict;
+
+=begin description
+Code sample that finds a subsequence of digits in randomly generated 0..100 array,
+sm of which is equal to provided argument $ARGV[0]
+=cut
+
 my @a;
 my $search = $ARGV[0];
 for(0..100){

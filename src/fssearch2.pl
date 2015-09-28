@@ -1,5 +1,10 @@
 use strict;
 
+=begin description
+Code sample that searches for a timestamp related phrase (GETDATE, NOW, CURRENT_TIMESTAMP, SYSDATE)in a directory $ARGV[0]
+And prints results with a list of matched files to ./result_files_summary.txt
+=cut
+
 my $directory = $ARGV[0] || ".";
 
 sub rreaddir{

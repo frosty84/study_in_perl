@@ -1,6 +1,11 @@
 use strict;
 package Node;
 
+####################################
+#
+# Basic binary tree implementation
+#
+####################################
 sub new
 {
    my $class = shift;

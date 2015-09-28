@@ -1,5 +1,10 @@
 use strict;
 
+=begin description
+Code sample that analizes two randomly generated arrays @a and @b
+And returns elements, that are not presented in both arrays (XOR) at the same time
+=cut
+
 my (@a, @b);
 for(0..10){
     push(@a, int(rand(10)));

@@ -1,5 +1,11 @@
 use strict;
 
+=begin description
+Code sample implements "dwarf sort" algorithm
+for randomly generated 0..10 array
+ans counts number of iterations
+=cut
+
 my @a;
 my $count;
 for (0..10){

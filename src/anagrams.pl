@@ -1,4 +1,9 @@
 use strict;
+
+=begin description
+Code sample checks if two provided strings are anagrams
+=cut
+
 my $s1 = $ARGV[0];
 my $s2 = $ARGV[1];
 

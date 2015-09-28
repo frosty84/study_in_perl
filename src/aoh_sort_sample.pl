@@ -1,5 +1,9 @@
 use strict;
 
+=begin description
+Code sample implements array-of-hash sort based on one of hash's properties
+=cut
+
 my $users = [
     {
         name => 'John',
